@@ -1,0 +1,6 @@
+SELECT * FROM system_schema.keyspaces;        // list all keyspaces
+USE your_keyspace_name;
+DESCRIBE TABLES;
+SELECT * FROM system_schema.tables WHERE keyspace_name = 'system_schema';
+SELECT * FROM contracts LIMIT 100;  // list first 100 rows in a table 
+DROP KEYSPACE IF EXISTS keyspace_name;

@@ -1,0 +1,42 @@
+{
+  // Formatting
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+  "editor.rulers": [100],
+  "files.autoSave": "onWindowChange",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Rust Analyzer
+  "rust-analyzer.cargo.features": "all",
+  "rust-analyzer.checkOnSave": true,
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.imports.granularity.group": "module",
+  "rust-analyzer.imports.prefix": "crate",
+  "rust-analyzer.showUnlinkedFileNotification": false,
+
+  // Language-specific overrides
+  "[markdown]": {
+    "editor.rulers": [80],
+    "editor.tabSize": 2
+  },
+
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#abb2bd",
+    "activityBar.background": "#abb2bd",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#bf4071",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "sash.hoverBorder": "#abb2bd",
+    "statusBar.background": "#8e98a7",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#717e91",
+    "statusBarItem.remoteBackground": "#8e98a7",
+    "statusBarItem.remoteForeground": "#15202b"
+  },
+  "peacock.color": "#8e98a7"
+}
